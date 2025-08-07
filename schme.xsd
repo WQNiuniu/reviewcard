@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ProjectData">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="项目编号" type="xs:string"/>
+                <xs:element name="工程名称" type="xs:string"/>
+                <xs:element name="设计阶段" type="xs:string"/>
+                <xs:element name="项目经理" type="xs:string"/>
+                <xs:element name="业主名称" type="xs:string"/>
+                <xs:element name="专业" type="xs:string"/>
+                <xs:element name="资料编号和名称1" type="xs:string"/>
+                <xs:element name="资料编号和名称2" type="xs:string"/>
+                <xs:element name="资料编号和名称3" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
